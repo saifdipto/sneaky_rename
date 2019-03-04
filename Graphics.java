@@ -19,7 +19,7 @@ public class Graphics extends Application{
   @Override
   public void start(Stage stage) throws FileNotFoundException{
     Image feltTexture = new Image(new FileInputStream("feltboard.png"));
-  //  Image woodEdge = new Image(new FileInputStream("woodplank.jpg)"));
+    Image woodEdge = new Image(new FileInputStream("woodplank.jpg"));
     ImageView background = new ImageView();
     background.setImage(feltTexture);
 
